@@ -2,6 +2,7 @@
 <ul>
   <% @flats.each do |flat| %>
     <li>
+      <img class="img-flat" src="<%= flat['imageUrl'] %>" />
       <%= link_to flat['name'], flat_path(flat['id']) %>
       - <%= flat['price'] %> <%= flat['priceCurrency'] %>
     </li>
