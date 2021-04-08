@@ -1,10 +1,24 @@
-<h1>Flats</h1>
-<ul>
-  <% @flats.each do |flat| %>
-    <li>
-      <img class="img-flat" src="<%= flat['imageUrl'] %>" />
-      <%= link_to flat['name'], flat_path(flat['id']) %>
-      - <%= flat['price'] %> <%= flat['priceCurrency'] %>
-    </li>
-  <% end %>
-</ul>
+<div class="container">
+  <h1 class="main-text mt-5 mb-5">Unique flats API</h1>
+
+  <div class="btn-content">
+    <span class="btn-header">Cancellation flexibility</span>
+    <span class="btn-header">Entire space</span>
+    <span class="btn-header">Price</span>
+    <span class="btn-header">Instant reservation</span>
+  </div>
+  <ul>
+    <% @flats.each do |flat| %>
+      <li class="flat-box">
+        <img class="img-flat" src="<%= flat['imageUrl'] %>" />
+        <span class="name-flat">
+          <%= link_to flat['name'], flat_path(flat['id']) %>
+        </span>
+        <span class="price-flat">
+        - <%= flat['price'] %> <%= flat['priceCurrency'] %>
+        </span>
+      </li>
+    <% end %>
+  </ul>
+
+</div>

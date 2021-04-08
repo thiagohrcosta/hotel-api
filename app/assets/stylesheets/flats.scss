@@ -1,3 +1,70 @@
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.main-text{
+  text-align: center;
+}
+
+.btn-content{
+  width: 100%;
+  margin: 0 250px;
+}
+
+.btn-header{
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 25px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-header:hover{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.img-flat{
+  width: 300px;
+}
+
+
+.flat-box{
+  position: relative !important;
+  list-style: none;
+  margin: 20px 10%;
+  position: relative;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.name-flat{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: lighter;
+  position:absolute;
+}
+
+.name-flat a{
+  color: #798777;
+  text-decoration: none;
+}
+
+.price-flat{
+  position: relative !important;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 100px;
+}
