@@ -1,5 +1,5 @@
 # README
-![main banner]()
+![main banner](https://github.com/thiagohrcosta/hotel-api/blob/master/public/img/uniqueFlats.png?raw=true)
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
