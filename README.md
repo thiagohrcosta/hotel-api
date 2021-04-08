@@ -12,6 +12,8 @@ This project was created with:
 ## API requests
 To check if a word typed by the user is an english word, was used Le Wagon API (https://raw.githubusercontent.com/lewagon/flats-boilerplate/master/flats.json)
 
+![enter image description here](https://github.com/thiagohrcosta/hotel-api/blob/master/public/img/uniqueFlats2.png?raw=true)
+
 ## How to run this project
 Download or clone it. Then run in the main folder the command `rails server`, the project should run on `localhost:3000`
 
