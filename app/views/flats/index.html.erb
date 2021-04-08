@@ -1,3 +1,11 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1422065254131-0959ca26ded4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);">
+  <div class="container">
+    <h1>Unique experiences for everyone!</h1>
+    <p>A new way to explore life and get rest in the same time.</p>
+    <a class="btn-apply" href="#ul-items">Apply now</a>
+  </div>
+</div>
+
 <div class="container">
   <h1 class="main-text mt-5 mb-5">Unique flats API</h1>
 
@@ -7,7 +15,7 @@
     <span class="btn-header">Price</span>
     <span class="btn-header">Instant reservation</span>
   </div>
-  <ul>
+  <ul id="ul-items">
     <% @flats.each do |flat| %>
       <li class="flat-box">
         <img class="img-flat" src="<%= flat['imageUrl'] %>" />

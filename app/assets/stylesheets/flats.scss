@@ -1,7 +1,40 @@
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
 
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-apply{
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-apply:hover{
+  background-color: #fff;
+  color: #000;
+
+}
 ul{
   margin: 0;
   padding: 0;
@@ -13,7 +46,7 @@ ul{
 
 .btn-content{
   width: 100%;
-  margin: 0 250px;
+
 }
 
 .btn-header{
