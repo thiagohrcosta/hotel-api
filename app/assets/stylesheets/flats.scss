@@ -23,16 +23,17 @@
 }
 
 .btn-apply{
+  background-color: #fff;
   padding: 10px 25px;
   border-radius: 20px;
-  border: 1px solid #fff;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .btn-apply:hover{
-  background-color: #fff;
-  color: #000;
+  background-color: #000;
+  color: #fff;
+  border: 0;
 
 }
 ul{
@@ -45,12 +46,13 @@ ul{
 }
 
 .btn-content{
-  width: 100%;
-
+  display: flex;
+  justify-content: center;
 }
 
 .btn-header{
   border-radius: 20px;
+  margin-right: 10px;
   font-size: 16px;
   padding: 10px 25px;
   background-color: #fff;
